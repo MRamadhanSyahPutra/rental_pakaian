@@ -1,0 +1,58 @@
+body {
+    background-color: #5d3a62 !important;
+}
+
+.logo-1 {
+    /* margin-left: 36px; */
+    margin: 0 20px 0 0;
+    margin-left: -10px;
+
+
+}
+
+.bar-login {
+    width: 620px;
+    height: 420px;
+    background-color: whitesmoke;
+    margin: 200px auto;
+    position: relative;
+}
+
+.gambar-1 {
+    width: 310px;
+    height: 420px;
+    background-color: rgb(235, 183, 235);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.bagian_input {
+    width: 310px;
+    height: 420px;
+    background-color: #401d35;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: whitesmoke;
+}
+
+.lapisan-input {
+    width: 270px;
+    height: 374px;
+    background-color: #401d35;
+    margin: 30px auto;
+    position: relative;
+}
+
+.lapisan-input-2 {
+    width: 270px;
+    height: 255px;
+    background-color: #f9f8f8;
+    margin: 20px auto;
+    /* margin-top: 8px; */
+    position: absolute;
+    bottom: 48.4px;
+    border-radius: 11.7px;
+    /* bottom: 1px; */
+}

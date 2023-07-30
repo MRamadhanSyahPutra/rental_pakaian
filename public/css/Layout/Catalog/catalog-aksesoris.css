@@ -1,0 +1,601 @@
+.lapisan-responsif {
+    width: 100%;
+    max-width: 603px;
+    height: 100%;
+    margin-right: 145px;
+    max-height: 488px;
+    padding: 20px 20px;
+}
+.lapisan-pertama {
+    max-height: 450px;
+    height: 100%;
+    max-width: 550px;
+    width: 100%;
+    position: relative;
+    margin-bottom: 30px;
+    display: flex;
+    border-radius: 0px 10px 10px 0px;
+}
+.lapisan-kedua {
+    width: 57%;
+    position: relative;
+
+}
+.lapisan-pertama .lapisan-kedua .image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.lapisan-pertama .lapisan-kedua .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.lapisan-ketiga {
+    width: 65%;
+    border-radius: 0px 10px 10px 0px;
+    position: relative;
+    background-color: #D9D9D9;
+
+}
+
+.lapisan-ketiga .caption {
+    height: 70%;
+    width: 100%;
+}
+
+.lapisan-ketiga .caption .nama-baju {
+    text-align: center;
+    margin-top: 10px;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+
+.lapisan-ketiga .caption .model {
+    text-align: center;
+    margin-top: -20px;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.lapisan-ketiga .caption .price {
+    margin-left: 10px;
+    margin-top: -20px;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.lapisan-ketiga .note {
+    color: black;
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.lapisan-ketiga button {
+    background-color: #D2AB30;
+    color: black;
+    width: 100px;
+    height: 35px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    font-weight: 700;
+    margin-left: 100px;
+    border-radius: 10px;
+}
+
+.lapisan-ketiga button {
+    background-color: #D2AB30;
+    color: black;
+    width: 100px;
+    height: 35px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    font-weight: 700;
+    margin-left: 100px;
+    border-radius: 10px;
+}
+
+.lapisan-ketiga button:hover {
+    background-color: #D2AB30;
+    color: black;
+
+}
+
+ul.set-nama {
+    margin-top: 16px;
+}
+.lihat-lainnya{
+    color:#000000 ;
+    text-decoration: none;
+}
+
+/* responsif */
+
+@media screen and (min-width: 1024px) {
+
+}
+
+@media screen and (min-width: 1024px) and (max-width :1400px) {
+.lapisan-responsif {
+    max-width: 518px;
+}
+}
+/* rombak dalam */
+@media screen and (min-width: 1024px) and (max-width :1199px) {
+    .lapisan-responsif {
+        margin-left: -4px;
+        width: 105%;
+        max-width: 451px;
+        height: 99%;
+        margin-right: 132px;
+        max-height: 488px;
+        padding: 20px 20px;
+    }
+    .lapisan-pertama {
+        max-height: 450px;
+        height: 102%;
+        max-width: 550px;
+        margin-left: -12px;
+        width: 105%;
+        position: relative;
+        margin-bottom: 30px;
+        display: flex;
+        border-radius: 0px 10px 10px 0px;
+    }
+    .lapisan-ketiga {
+        width: 65%;
+        border-radius: 0px 10px 10px 0px;
+        position: relative;
+        background-color: #D9D9D9;
+    }
+    .lapisan-ketiga .caption {
+        height: 70%;
+        width: 100%;
+    }
+    .lapisan-ketiga .caption .nama-baju {
+        text-align: center;
+        margin-top: 10px;
+        color: black;
+        font-size: 13px;
+        font-weight: 700;
+        margin-bottom: 4px;
+    }
+    .lapisan-ketiga .caption .price {
+        margin-left: 10px;
+        margin-top: -20px;
+        color: black;
+        font-size: 14px;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+    ul.set-nama {
+        margin-top: 3px;
+        font-size: 12px;
+        margin-bottom: 2px;
+    }   
+    .lapisan-ketiga .note {
+        color: black;
+        margin-left: 10px;
+        font-size: 12px;
+        font-weight: 700;
+    }
+    .lapisan-ketiga button {
+        background-color: #D2AB30;
+        color: black;
+        width: 102px;
+        height: 22px;
+        margin-right: 5px;
+        margin-bottom: 10px;
+        font-size: 9px;
+        font-weight: 700;
+        margin-left: 5px;
+        border-radius: 10px;
+    }
+}
+/*table*/
+/* rombak dalam */
+@media screen and (min-width: 992px) and (max-width: 1024px){
+    .lapisan-responsif {
+        margin-left: -4px;
+        width: 102%;
+        max-width: 438px;
+        height: 99%;
+        margin-right: 132px;
+        max-height: 488px;
+        padding: 20px 20px;
+    }
+    .lapisan-pertama {
+        max-height: 450px;
+        height: 102%;
+        max-width: 550px;
+        margin-left: -12px;
+        width: 105%;
+        position: relative;
+        margin-bottom: 30px;
+        display: flex;
+        border-radius: 0px 10px 10px 0px;
+    }
+    .lapisan-ketiga {
+        width: 65%;
+        border-radius: 0px 10px 10px 0px;
+        position: relative;
+        background-color: #D9D9D9;
+    }
+    .lapisan-ketiga .caption {
+        height: 65%;
+        width: 100%;
+    }
+    .lapisan-ketiga .caption .nama-baju {
+        text-align: center;
+        margin-top: 10px;
+        color: black;
+        font-size: 13px;
+        font-weight: 700;
+        margin-bottom: 4px;
+    }
+    .lapisan-ketiga .caption .price {
+        margin-left: 10px;
+        margin-top: -20px;
+        color: black;
+        font-size: 14px;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+    ul.set-nama {
+        margin-top: 3px;
+        font-size: 12px;
+        margin-bottom: 2px;
+    }   
+    .lapisan-ketiga .note {
+        color: black;
+        margin-left: 10px;
+        font-size: 12px;
+        font-weight: 700;
+    }
+    .lapisan-ketiga button {
+        background-color: #D2AB30;
+        color: black;
+        width: 102px;
+        height: 22px;
+        margin-right: 5px;
+        margin-bottom: 10px;
+        font-size: 9px;
+        font-weight: 700;
+        margin-left: 52px;
+        border-radius: 10px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 992px){
+    .lapisan-responsif {
+        width: 100%;
+        max-width: 655px;
+    }
+    .lapisan-pertama {
+        max-height: 450px;
+        height: 100%;
+        max-width: 615px;
+    }
+}
+/*hp rombak dikit size*/
+@media screen and (max-width: 767px){
+    .lapisan-responsif {
+        width: 102%;
+        margin-left: -5px;
+    }
+    .lapisan-pertama {
+    margin-left: -10px;
+    width: 104%;
+    }
+}
+@media screen and (max-width: 576px) and (min-width: 444px) {
+    .lapisan-responsif {
+        width: 103%;
+        height: 81%;
+        margin-right: 130px;
+        margin-left: -5px;
+    }
+    .lapisan-pertama {
+        margin-left: -10px;
+        width: 104%;
+        height: 100%;
+    }
+    .lapisan-ketiga {
+        width: 65%;
+        border-radius: 0px 10px 10px 0px;
+        position: relative;
+        background-color: #D9D9D9;
+    }
+    .lapisan-ketiga .caption {
+        height: 68%;
+        width: 100%;
+    }
+    .lapisan-ketiga .caption .nama-baju {
+        text-align: center;
+        margin-top: 10px;
+        color: black;
+        font-size: 11px;
+        font-weight: 700;
+        margin-bottom: 2px;
+    }
+    .lapisan-ketiga .caption .price {
+        margin-left: 10px;
+        margin-top: -20px;
+        color: black;
+        font-size: 11px;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+    ul.set-nama {
+        margin-top: 1px;
+        font-size: 10px;
+    }
+    .lapisan-ketiga .note {
+        color: black;
+        margin-left: 10px;
+        font-size: 9px;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+    .lapisan-ketiga button {
+        background-color: #D2AB30;
+        color: black;
+        width: 72px;
+        height: 19px;
+        margin-right: 2px;
+        margin-bottom: 10px;
+        font-size: 8px;
+        font-weight: 700;
+        margin-left: 4px;
+        border-radius: 10px;
+    }
+}
+@media screen and (max-width: 444px) and (min-width: 380px) {
+    .lapisan-responsif {
+        width: 103%;
+        height: 81%;
+        margin-right: 100px;
+        margin-left: -5px;
+    }
+    .lapisan-pertama {
+        margin-left: -10px;
+        width: 104%;
+        height: 100%;
+    }
+    .lapisan-ketiga {
+        width: 65%;
+        border-radius: 0px 10px 10px 0px;
+        position: relative;
+        background-color: #D9D9D9;
+    }
+    .lapisan-ketiga .caption {
+        height: 68%;
+        width: 100%;
+    }
+    .lapisan-ketiga .caption .nama-baju {
+        text-align: center;
+        margin-top: 10px;
+        color: black;
+        font-size: 11px;
+        font-weight: 700;
+        margin-bottom: 2px;
+    }
+    .lapisan-ketiga .caption .price {
+        margin-left: 10px;
+        margin-top: -20px;
+        color: black;
+        font-size: 11px;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+    ul.set-nama {
+        margin-top: 1px;
+        font-size: 10px;
+    }
+    .lapisan-ketiga .note {
+        color: black;
+        margin-left: 10px;
+        font-size: 9px;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+    .lapisan-ketiga button {
+        background-color: #D2AB30;
+        color: black;
+        width: 72px;
+        height: 19px;
+        margin-right: 2px;
+        margin-bottom: 10px;
+        font-size: 8px;
+        font-weight: 700;
+        margin-left: 4px;
+        border-radius: 10px;
+    }
+}
+@media screen and (max-width: 390px) and (min-width: 360px) {
+    .lapisan-responsif {
+        width: 103%;
+        height: 88%;
+        margin-right: 100px;
+        margin-left: -5px;
+    }
+    .lapisan-pertama {
+        margin-left: -10px;
+        width: 104%;
+        height: 100%;
+    }
+    .lapisan-ketiga {
+        width: 65%;
+        border-radius: 0px 10px 10px 0px;
+        position: relative;
+        background-color: #D9D9D9;
+    }
+    .lapisan-ketiga .caption {
+        height: 68%;
+        width: 100%;
+    }
+    .lapisan-ketiga .caption .nama-baju {
+        text-align: center;
+        margin-top: 10px;
+        color: black;
+        font-size: 11px;
+        font-weight: 700;
+        margin-bottom: 2px;
+    }
+    .lapisan-ketiga .caption .price {
+        margin-left: 10px;
+        margin-top: -20px;
+        color: black;
+        font-size: 11px;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+    ul.set-nama {
+        margin-top: 1px;
+        font-size: 10px;
+    }
+    .lapisan-ketiga .note {
+        color: black;
+        margin-left: 10px;
+        font-size: 9px;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+    .lapisan-ketiga button {
+        background-color: #D2AB30;
+        color: black;
+        width: 72px;
+        height: 19px;
+        margin-right: 2px;
+        margin-bottom: 10px;
+        font-size: 8px;
+        font-weight: 700;
+        margin-left: 4px;
+        border-radius: 10px;
+    }
+}
+
+/* responsif lapisan*/
+
+@media screen and (min-width: 1024px) {
+    .lapisan-catalog {
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        background-color: #4a2745;
+        position: absolute;
+        max-width: 1296px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1400px) {
+    .lapisan-catalog {
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        background-color: #4a2745;
+        position: absolute;
+        max-width: 1117px;
+    }
+}
+/* rombak dalam */
+@media screen and (min-width: 1024px) and (max-width: 1199px) {
+    .lapisan-catalog {
+        height: auto;
+        display: flex;    
+        flex-wrap: wrap;
+        width: 100%;
+        background-color: #4a2745;
+        position: absolute;
+        max-width: 937px;
+    }
+    .lapisan-responsif {
+        margin-right: 140px;
+
+    }
+}
+/*table*/
+/* rombak dalam */
+@media screen and (min-width: 992px) and (max-width: 1024px) {
+    .lapisan-catalog {
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        background-color: #4a2745;
+        position: absolute;
+        max-width: 937px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .lapisan-catalog {
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        background-color: #4a2745;
+        position: absolute;
+        max-width: 696px;
+    }
+}
+/*hp rombak dikit size*/
+@media screen and (max-width: 767px) {
+    .lapisan-catalog {
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        background-color: #4a2745;
+        position: absolute;
+        max-width: 518px;
+    }   
+    .bar-catalog {
+        margin-left: -20px;
+    }
+}
+@media screen and (max-width: 576px) and (min-width: 444px) {
+    .lapisan-catalog {
+    height: auto;
+    width: 94%;
+    max-width: 522px;
+    }
+    .catalogfix{
+        width: 100%;
+    }
+    .bar-catalog {
+        margin-left: -34px;
+    }
+}
+@media screen and (max-width: 444px) and (min-width: 390px) {
+    .lapisan-catalog {
+        width: 95%;
+    }
+    .catalogfix {
+        width: 102%;
+    }
+    .bar-catalog {
+        margin-left: -29px;
+    }
+}
+@media screen and (max-width: 390px) and (min-width: 360px) {
+    .lapisan-catalog {
+        width: 106%;
+    }
+    .catalogfix {
+        width: 116%;
+    }
+    .bar-catalog {
+        margin-left: -28px;
+    }
+}

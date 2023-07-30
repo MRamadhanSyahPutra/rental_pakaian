@@ -1,0 +1,61 @@
+.lapisan-judul {
+    margin: 0px auto;
+    text-align: center;
+    position: absolute;
+    font-size: 23.7px;
+    margin-left: 30.7px;
+    /* margin-top: 11.8px; */
+    margin-bottom: 10px;
+}
+
+.lapisan-input-2 {
+    background: linear-gradient(to bottom, #f8f6f7, #9b8995);
+}
+
+.submit-register {
+    height: 40px;
+    border-radius: 5px;
+    width: 179.8px;
+    color: #f4ebce;
+    background-color: #d2ab30;
+    width: 189.3px;
+}
+
+.penelusuran_to_login {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    margin: 0 auto;
+    margin-left: 24.5px;
+}
+
+.penelusuran_to_login a {
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.penelusuran_to_login strong {
+    font-size: 16px;
+}
+
+.inputan {
+    margin-top: -24.2px;
+}
+
+.input-register {
+    margin-top: 17px;
+}
+
+.input-submit {
+    margin-top: 1.31px;
+}
+
+.pesan_error {
+    margin: 0;
+    padding: 0;
+    width: 210px;
+    /* background-color: orange; */
+    /* text-align: center; */
+    font-size: 10px;
+    position: absolute;
+}

@@ -1,0 +1,232 @@
+body {
+    background-color: #5d3a62;
+}
+
+.logo-1 {
+    /* margin-left: 36px; */
+    margin: 0 20px 0 0;
+    margin-left: -10px;
+
+
+}
+.lapisan-konten {
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+.isi-kontent {
+    background-image: url(../img/kontak/bg-kontak.png);    padding: 30px 20px;
+    border-radius: 17px;
+    margin-top: 115px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.judul-contact {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lapisan-kontak {
+    position: relative;
+    padding: 20px;
+}
+
+.lapisan-kontak1 {
+    width: 100%;
+    position: relative;
+    padding: 20px;
+}
+.desk-kontak1 {
+    width: 100%;
+    padding: 20px;
+    position: relative;
+}
+.lapisan-desk1 {
+    width: 100%;
+    background: silver;
+    padding: 15px;
+    border-radius: 10px;
+    position: relative;
+}
+.foto-desk1 {
+    display: flex;
+    justify-content: center;
+}
+img.desk1-wa {
+    width: 25%;
+}
+.talk-sanggar {
+    display: flex;
+    justify-content: center;
+}
+p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: #D2AB30;
+}
+.desk-wa {
+    display: flex;
+    justify-content: center;
+}
+p#\31 {
+    font-size: 15px;
+    font-weight: 600;
+    color: #ffff;
+    text-align: center;
+    width: 100%;
+}
+.button {
+    display: flex;
+    justify-content: center;
+}
+button.click-me {
+    width: 50%;
+    background-color: #D2AB30;
+    border-radius: 10px;
+    padding: 3px;
+}
+a#\32 {
+    color: #ffffff;
+    text-decoration: none;
+}
+/*ig*/
+.lapisan-kontak2 {
+    width: 100%;
+    position: relative;
+    padding: 20px;
+}
+.desk-kontak2 {
+    width: 100%;
+    padding: 20px;
+    position: relative;
+}
+.lapisan-desk2 {
+    width: 100%;
+    background: silver;
+    border-radius: 10px;
+    padding: 15px;
+    position: relative;
+}
+.foto-desk2 {
+    display: flex;
+    justify-content: center;
+    padding: 11px;
+}
+img.desk1-ig {
+    width: 14%;
+}
+
+/*responsif*/
+@media screen and (min-width: 770px) {
+    .lapisan-konten {
+        background-color: #ffffff;
+        border-radius: 20px;
+    }
+    .isi-kontent {
+        background-image: url(../img/kontak/bg-kontak.png);    padding: 30px 20px;
+        border-radius: 17px;
+        margin-top: 115px;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+    }
+    .judul-contact {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .lapisan-kontak {
+        position: relative;
+        padding: 20px;
+        display: flex;
+    }
+    
+    .lapisan-kontak1 {
+        width: 50%;
+        position: relative;
+        padding: 20px;
+    }
+    .desk-kontak1 {
+        width: 100%;
+        padding: 20px;
+        position: relative;
+    }
+    .lapisan-desk1 {
+        width: 100%;
+        background: silver;
+        padding: 15px;
+        border-radius: 10px;
+        position: relative;
+    }
+    .foto-desk1 {
+        display: flex;
+        justify-content: center;
+    }
+    img.desk1-wa {
+        width: 25%;
+    }
+    .talk-sanggar {
+        display: flex;
+        justify-content: center;
+    }
+    p {
+        text-align: center;
+        font-size: 18px;
+        font-weight: 600;
+        color: #D2AB30;
+    }
+    .desk-wa {
+        display: flex;
+        justify-content: center;
+    }
+    p#\31 {
+        font-size: 15px;
+        font-weight: 600;
+        color: #ffff;
+        text-align: center;
+        width: 100%;
+    }
+    .button {
+        display: flex;
+        justify-content: center;
+    }
+    button.click-me {
+        width: 50%;
+        background-color: #D2AB30;
+        border-radius: 10px;
+        padding: 3px;
+    }
+    a#\32 {
+        color: #ffffff;
+        text-decoration: none;
+    }
+    /*ig*/
+    .lapisan-kontak2 {
+        width: 50%;
+        position: relative;
+        padding: 20px;
+    }
+    .desk-kontak2 {
+        width: 100%;
+        padding: 20px;
+        position: relative;
+    }
+    .lapisan-desk2 {
+        width: 100%;
+        background: silver;
+        border-radius: 10px;
+        padding: 15px;
+        position: relative;
+    }
+    .foto-desk2 {
+        display: flex;
+        justify-content: center;
+        padding: 11px;
+    }
+    img.desk1-ig {
+        width: 14%;
+    }
+}

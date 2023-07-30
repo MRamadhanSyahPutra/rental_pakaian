@@ -1,0 +1,480 @@
+body {
+    background-color: #d9d9d9 !important;
+}
+
+@font-face {
+    font-family: 'Poppins-ExtraLight', 'Poppins-Medium', 'Poppins-ExtraBold', 'Poppins-BlackItalic';
+    src: url(../fonts/Poppins-ExtraLight.otf) format('otf'), url(../fonts/Poppins-Medium.otf) format('otf'), url('../fonts/Poppins-ExtraBold.otf') format('otf'), url(../fonts/Poppins-BlackItalic.otf) format('otf');
+}
+
+.logo-1 {
+    /* margin-left: 36px; */
+    margin: 0 20px 0 0;
+    margin-left: -10px;
+
+
+}
+
+.bg-blur {
+    width: 100%;
+    height: 335.5px;
+    position: absolute;
+    margin-top: 72px;
+    min-width: 1417px;
+}
+
+.bg-blur img {
+    object-fit: fill;
+    background-position: 100 -990px;
+    display: block;
+}
+
+/* @media screen and (min-width: 1479.30px) {
+    .bg-blur {
+        width: 3000px;
+        height: 335.5px;
+        border: 50px solid blue;
+    }
+} */
+
+.bagian-atas {
+    width: 1294.3px;
+    height: 390px;
+    background-color: rgb(251, 202, 251);
+    position: absolute;
+    margin-top: 100px;
+}
+
+.parent-1 {
+    position: relative;
+
+}
+
+.bar-rekomendasi {
+    width: 457.3px;
+    height: 350px;
+    background-color: #43233e;
+    border-radius: 15.8px;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+}
+
+.swiper {
+    margin-left: none !important;
+    margin-right: none !important;
+}
+
+.parent-1 {
+    position: relative;
+    display: block;
+}
+
+
+.lapisan-rekomendasi {
+    width: 410px;
+    height: 340px;
+    /* background-color: rgb(218, 143, 218); */
+    margin: auto;
+    opacity: .9;
+    position: relative;
+    transition: .300s ease;
+}
+
+.lapisan-rekomendasi>li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.lapisan-rekomendasi img {
+    margin: 110px 0 0 0;
+    transition: .670s ease;
+}
+
+.lapisan-rekomendasi li a img:hover {
+    transform: scaleX(1.5) scaleY(1.63);
+
+
+}
+
+
+
+
+.text-rekomendasi {
+    width: 254.4px;
+    height: 42.9px;
+    color: #cfd5d0;
+    background-color: #5d3a62;
+    border-radius: 13.6px;
+    text-align: center;
+    line-height: 45.9px;
+    position: absolute;
+    bottom: 0;
+    margin: 23.3px 100px;
+    display: inline-block;
+    padding-top: 8px;
+    z-index: 1;
+}
+
+
+
+
+
+.text-heading {
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: left;
+    width: 300px;
+    height: 164.1px;
+    background-color: transparent;
+    margin: 33px 47.9px;
+
+}
+
+.text-heading>h2 {
+    font: 35px/37px 'Poppins-Medium';
+    color: #ffffff;
+}
+
+.text-heading>p {
+    font: 23.4px/29.7px 'Poppins-ExtraLight';
+    color: #fefefe;
+}
+
+
+
+
+
+.set-baju {
+    width: 1294.3px;
+    height: 350px;
+    background-color: rgb(195, 59, 195) transparent;
+    margin: 557.8px auto;
+    position: absolute;
+}
+
+.lapisan-set-baju {
+    width: 870px;
+    height: 350px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(239, 199, 239) transparent;
+}
+
+.lapisan-set-baju li {
+    list-style-type: none;
+
+
+}
+
+.content-2 {
+    display: inline-block;
+    /* overflow: hidden; */
+    position: relative;
+    margin-right: 31.8px;
+}
+
+
+
+.content-2-1 li {
+    width: 254px;
+    height: 350px;
+
+    position: relative;
+    padding: 0;
+    /* overflow: hidden; */
+}
+
+.content-2 .content-2-1 {
+    padding: 0;
+}
+
+.content-2-1 li span {
+    display: block;
+    width: 254px;
+    height: 350px;
+    background-color: rgba(200, 200, 200, .5) transparent;
+    position: absolute;
+    top: 0;
+    opacity: o;
+    transform: scaleX(0) scaleY(0);
+    transition: .300s;
+    border-radius: 10px;
+}
+
+.content-2-1 li a:hover span {
+    transform: scaleX(1) scaleY(1);
+    opacity: .8;
+}
+
+.text {
+    display: inline-block;
+    width: 135.3px;
+    height: 50px;
+    border-radius: 5.3px;
+    line-height: 50px;
+    background-color: whitesmoke;
+    color: #1b1b1b;
+    text-align: center;
+    font-family: 'Poppins-Medium', sans-serif;
+    font-weight: 498.34;
+    margin: 268.9px 58.8px;
+
+}
+
+
+.bagian-tengah {
+    width: 1294.3px;
+    height: 367.8px;
+    background-color: #401d35;
+    position: absolute;
+    margin: 967.8px auto;
+}
+
+.lapisan-bagian-tengah {
+    width: 900px;
+    height: 367.8px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(239, 199, 239);
+}
+
+.deskripsi-1 {
+    width: 450px;
+    height: 367.8px;
+    background-color: #401d35;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.lapisan-deskripsi-1 {
+    width: 330.2px;
+    height: 200px;
+    background-color: #401d35;
+    margin: 100px auto;
+
+}
+
+.lapisan-deskripsi-1>h2 {
+    font-weight: 780;
+    color: #ffff;
+
+}
+
+.bagian-tengah-img {
+    width: 450px;
+    height: 367.8px;
+    background-color: rgb(248, 235, 248);
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+
+
+
+
+.galeri {
+    width: 1294.3px;
+    height: 900px;
+    position: absolute;
+    margin: 1399px auto;
+    background-color: #401d35 transparent;
+}
+
+.lapisan-galeri {
+    width: 1010px;
+    height: 900px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(239, 199, 239) transparent;
+}
+
+.heading-deskripsi {
+    width: 1010px;
+    height: 100px;
+    background-color: rgb(223, 42, 223) transparent;
+
+}
+
+.judul-galeri {
+    width: 200px;
+    height: 100px;
+    background-color: rgb(209, 105, 209) transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+.judul-galeri>h2 {
+    line-height: 100px;
+    margin-left: 12.7px;
+    font-weight: 700;
+    color: #575757;
+}
+
+.liat-semua {
+    width: 200px;
+    height: 100px;
+    background-color: rgb(228, 49, 228) transparent;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.pebungkus-1 {
+    width: 50px;
+    height: 25px;
+    background-color: rgb(195, 147, 195) transparent;
+    margin-left: auto;
+    margin-top: 38.7px;
+}
+
+.pebungkus-1>a {
+    font-family: 'Poppins-ExtraLight';
+    color: #969696;
+    text-decoration: none;
+    font-weight: 796.8;
+}
+
+.list-galeri {
+    height: 800px;
+    width: 1010px;
+    background-color: red transparent;
+}
+
+.container-galeri .content-list-galeri {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.content-list-galeri>ul li {
+    list-style-type: none;
+}
+
+.content-list-galeri .slide-galeri {
+    padding-left: 0;
+}
+
+.slide-galeri li {
+    width: 294px;
+    height: 357.3px;
+    background-color: #1b1b1b transparent;
+
+
+}
+
+
+
+
+
+.penutup {
+    width: 100%;
+    height: 270px;
+    min-width: 1417px;
+    margin-top: 2400px;
+    position: absolute;
+    background-color: #401d35;
+}
+
+.lapisan-penutup {
+    width: 1010px;
+    height: 270px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #401d35;
+}
+
+.slide-penutup>h4 {
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.slide-penutup>a {
+    text-decoration: none;
+    color: #edeaec;
+
+}
+
+
+@media screen and (max-width:1080px) {
+    .bg-blur {
+        max-width: 1400px;
+        width: 1390px;
+    }
+
+    .bar-rekomendasi {
+
+        width: 396.8px;
+        height: 350px;
+
+    }
+
+    .lapisan-rekomendasi .content-1 img {
+        width: 117.2px;
+    }
+
+    .text-rekomendasi {
+        width: 228.4px;
+        height: 42.9px;
+        margin: 0 0 22px 84.4px;
+
+    }
+
+    .text-rekomendasi h5 {
+        font-size: 18px;
+    }
+
+    .text-heading {
+        margin: 50px 393.9px 0 0;
+    }
+
+    .text-heading>h2 {
+        font-size: 17px/18px;
+    }
+
+    .text-heading>p {
+        font-size: 11.2px/14.3px;
+    }
+}
+
+
+
+
+
+.keluar {
+    width: 60px;
+    height: 50px;
+    position: absolute;
+    font: 17px;
+    margin-top: 2300px;
+    margin-left: 1056.2px;
+    /* background-color: red; */
+    background-color: #401d35;
+    border-radius: 12px;
+    text-align: center;
+    transition: .300s ease-in-out;
+}
+
+.keluar>a {
+    color: #ffffff;
+    border-radius: 13px;
+    line-height: 50px;
+    text-decoration: none;
+}
+
+.keluar:hover {
+    width: 60px;
+    height: 50px;
+    /* background-color: #401d35; */
+    background-color: red;
+}
+

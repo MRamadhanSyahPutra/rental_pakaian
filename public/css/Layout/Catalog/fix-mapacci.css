@@ -1,0 +1,208 @@
+.catalogfix {
+    margin-top: 100px;
+    max-width: 1400px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.judul {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+    height: 60px;
+    letter-spacing: 4px;
+    line-height: normal;
+    align-self: center;
+    width: 100%;
+    margin-left: -8px;
+}
+
+/*
+.tabel-cari {
+    width: 100%;
+    max-width: 750px;
+    margin-left: -43px;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 2px 8px;
+    width: 100%;
+    border-radius: 30px;
+    margin-top: 8px;
+}
+
+.search-box .search-icon {
+    font-size: 1rem;
+    color: black;
+    margin-left: 10px;
+}
+
+.search-box .input {
+    border: none;
+    outline: none;
+    background-color: unset;
+    padding: 8px;
+}
+*/
+
+.bar-catalog {
+    margin-top: 10px;
+    text-decoration: none;
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+
+ul.bar {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bar li {
+    list-style-type: none;
+}
+
+.bar-catalog .bar li a {
+    color: white;
+}
+
+.bar-catalog .bar li a:hover {
+    color: yellow;
+}
+
+.judul1 {
+    text-decoration: none;
+    color: white;
+}
+
+.lapisan-catalog {
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #4a2745;
+    position: absolute;
+    max-width: 1296px;
+}
+/* responsif */
+@media screen and (min-width: 1024px) {
+    .lapisan-catalog {
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        background-color: #4a2745;
+        position: absolute;
+        max-width: 1296px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1400px) {
+    .lapisan-catalog {
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        background-color: #4a2745;
+        position: absolute;
+        max-width: 1117px;
+    }
+}
+/* rombak dalam */
+@media screen and (min-width: 1024px) and (max-width: 1199px) {
+    .lapisan-catalog {
+        height: auto;
+        display: flex;    
+        flex-wrap: wrap;
+        width: 100%;
+        background-color: #4a2745;
+        position: absolute;
+        max-width: 937px;
+    }
+
+}
+/*table*/
+/* rombak dalam */
+@media screen and (min-width: 992px) and (max-width: 1024px) {
+    .lapisan-catalog {
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        background-color: #4a2745;
+        position: absolute;
+        max-width: 937px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 993px) {
+    .lapisan-catalog {
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        background-color: #4a2745;
+        position: absolute;
+        max-width: 696px;
+    }
+}
+/*hp rombak dikit size*/
+@media screen and (max-width: 767px) {
+    .lapisan-catalog {
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        background-color: #4a2745;
+        position: absolute;
+        max-width: 555px;
+    }   
+    .bar-catalog {
+        margin-left: -20px;
+    }   
+}
+@media screen and (max-width: 576px) and (min-width: 444px) {
+    .lapisan-catalog {
+        height: auto;
+        width: 110%;
+        max-width: 615px;
+    }
+    .catalogfix {
+        width: 115%;
+        max-width: 615px;
+    }
+    .bar-catalog {
+        margin-left: -34px;
+    }
+}
+@media screen and (max-width: 444px) and (min-width: 390px) {
+    .lapisan-catalog {
+        width: 142%;
+        max-width: 617px;
+    }
+    .catalogfix {
+        width: 150%;
+        max-width: 1000px;
+    }
+    .bar-catalog {
+        margin-left: -29px;
+    }
+}
+@media screen and (max-width: 390px) and (min-width: 360px) {
+    .lapisan-catalog {
+        max-width: 615px;
+        width: 161%;
+    }
+    
+    .catalogfix {
+        max-width: 612px;
+        width: 169%;
+    }
+    .bar-catalog {
+        margin-left: -28px;
+    }
+}

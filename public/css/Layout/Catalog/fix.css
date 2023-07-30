@@ -1,0 +1,91 @@
+.catalogfix {
+    margin-top: 100px;
+    max-width: 1400px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.judul {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+    height: 60px;
+    letter-spacing: 4px;
+    line-height: normal;
+    align-self: center;
+    width: 100%;
+    margin-left: -8px;
+}
+
+/*
+.tabel-cari {
+    width: 100%;
+    max-width: 750px;
+    margin-left: -43px;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 2px 8px;
+    width: 100%;
+    border-radius: 30px;
+    margin-top: 8px;
+}
+
+.search-box .search-icon {
+    font-size: 1rem;
+    color: black;
+    margin-left: 10px;
+}
+
+.search-box .input {
+    border: none;
+    outline: none;
+    background-color: unset;
+    padding: 8px;
+}
+*/
+
+.bar-catalog {
+    margin-top: 10px;
+    text-decoration: none;
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+
+ul.bar {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bar li {
+    list-style-type: none;
+}
+
+.bar-catalog .bar li a {
+    color: white;
+}
+
+.bar-catalog .bar li a:hover {
+    color: yellow;
+}
+
+.judul1 {
+    text-decoration: none;
+    color: white;
+}
+
+.lapisan-catalog {
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #4a2745;
+    position: absolute;
+    max-width: 1296px;
+}
