@@ -7,4 +7,4 @@ Further during escalation.
 
 - If you haven't already, install the Note.js program on your computer.
 - After a successful installation, open a CMD prompt and type "npm -v" to check the version. 
-- Run "php artisan ser" and then "npm run dev" to continue. 
+- Run "php artisan ser" and then "npm run dev" to continue.
